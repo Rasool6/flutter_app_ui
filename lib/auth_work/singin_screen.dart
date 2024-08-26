@@ -11,8 +11,7 @@ class SignInScreen extends StatefulWidget {
 class _SignInScreenState extends State<SignInScreen> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
+    return  Scaffold(
 
         body: SingleChildScrollView(
           child: Column(
@@ -427,7 +426,7 @@ class _SignInScreenState extends State<SignInScreen> {
             ],
           ),
         ),
-      ),
+
     );
   }
 }

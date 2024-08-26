@@ -1,7 +1,8 @@
  import 'package:flutter/material.dart';
-import 'package:untitled/singin_screen.dart';
+import 'package:untitled/auth_work/singin_screen.dart';
 
 import 'LoginScreen.dart';
+
 
 class AuthBottomSheetDialogue {
   void show(BuildContext context,{

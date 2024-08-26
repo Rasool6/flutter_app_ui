@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/authBottomSheetDailogue.dart';
+import 'package:untitled/auth_work/authBottomSheetDailogue.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});

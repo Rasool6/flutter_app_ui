@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
-import 'package:untitled/welcom_screen.dart';
+import 'package:untitled/auth_work/welcom_screen.dart';
 
 void main() {
   runApp(const MyApp());

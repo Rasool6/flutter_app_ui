@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/forgotPasswordDailogu.dart';
+
+import '../home/home_screen.dart';
+import 'forgotPasswordDailogu.dart';
 
 
 class LoginScreen extends StatefulWidget {
@@ -12,8 +14,7 @@ class LoginScreen extends StatefulWidget {
 class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
+    return  Scaffold(
         resizeToAvoidBottomInset: false,
                 body: Column(
                   mainAxisAlignment: MainAxisAlignment.start,
@@ -142,7 +143,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         onPressed: (){
                           ForgotPasswordDialog().show(context);
                         },
-                       child: Text( "Forgot Password?",
+                       child: const Text( "Forgot Password?",
                         style: TextStyle(
                             fontSize: 14,
                             color: Colors.black,
@@ -156,7 +157,9 @@ class _LoginScreenState extends State<LoginScreen> {
                     Center(
                       child: MaterialButton(
                         elevation: 0,
-                        onPressed: () {  },
+                        onPressed: () {
+                          Navigator.push(context,   MaterialPageRoute(builder: (context)=>const Home()));
+                        },
                         color: const Color(0xFFFFD319),
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(10)),
@@ -176,7 +179,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                   ],
                 ),
-      ),
+
     );
   }
 }
