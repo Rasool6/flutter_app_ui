@@ -93,7 +93,6 @@ class HomeFragment extends StatelessWidget {
               ),
             ),
           ),
-
           SizedBox(
             height: 20,
           ),
