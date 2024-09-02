@@ -382,7 +382,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                         fontFamily: 'BG Flame Light',
                         fontSize: 14,
                         wordSpacing: -2,
-                        color: Color(0xfffa8a8a8),
+                        color: Color(0xffa8a8a8),
                         fontWeight: FontWeight.normal),
                     filled: true,
                     fillColor: Colors.transparent,

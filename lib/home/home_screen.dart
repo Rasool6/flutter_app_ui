@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:untitled/home/ui/campaign.dart';
 import 'package:untitled/home/ui/cod_token.dart';
-import 'package:untitled/home/ui/home.dart';
+import 'package:untitled/home/ui/home_utils/home.dart';
 import 'package:untitled/home/ui/member_wall.dart';
 import 'package:untitled/home/ui/profile.dart';
 
